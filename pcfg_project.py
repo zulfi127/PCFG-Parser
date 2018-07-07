@@ -1,6 +1,4 @@
-# Full Name: Zulipiye Yusupujiang
-# Date: April 18th, 2018
-# Assignment: Syntactic Parsing Assignment 4
+# Extend the grammar extraction to get grammars for unit productions
 
 from sys import argv, stderr
 
@@ -69,7 +67,7 @@ class PCFG:
         for (x, y1, y2), count in self.binary_count.items():
             self.q2[x, y1, y2] = self.binary_count[x, y1, y2] / self.sym_count[x]
 
-        # Q3
+        # Q3 get grammars for unit production
         for (x, y1), count in self.unitproduction_count.items():
             self.q3[x, y1] = self.unitproduction_count[x, y1] / self.sym_count[x]
         
