@@ -1,6 +1,4 @@
-# Full Name: Zulipiye Yusupujiang
-# Date: April 18th, 2018
-# Assignment: Syntactic Parsing Assignment 4
+# Allows unit productions in the treebank file
 
 from sys import stdin, stderr
 from json import loads, dumps
