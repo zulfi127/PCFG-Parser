@@ -1,7 +1,3 @@
-# Full Name: Zulipiye Yusupujiang
-# Date: April 4th, 2018
-# Assignment: Syntactic Parsing Assignment 4: Individual Project
-# Reference: Course Slides for 2018 Syntactic Parsing Course
 
 
 """
